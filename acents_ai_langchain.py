@@ -4,6 +4,7 @@
 !pip install sentence-transformers
 !pip install -U langchain-huggingface huggingface_hub
 !pip install -q langchain-openai langchain-core requests
+!pip install -U ddgs
 
 from langchain_core.tools import tool
 import requests
