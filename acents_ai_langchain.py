@@ -1,10 +1,12 @@
-!pip install langchain
-!pip install langchain-community
-!pip install langchain-huggingface
-!pip install sentence-transformers
-!pip install -U langchain-huggingface huggingface_hub
-!pip install -q langchain-openai langchain-core requests
-!pip install -U ddgs
+#Developer : Tauheed Ahmad (tauheed.spark@gmail.com)
+#version : 1.0
+#!pip install langchain
+#!pip install langchain-community
+#!pip install langchain-huggingface
+#!pip install sentence-transformers
+#!pip install -U langchain-huggingface huggingface_hub
+#!pip install -q langchain-openai langchain-core requests
+#!pip install -U ddgs
 
 from langchain_core.tools import tool
 import requests
