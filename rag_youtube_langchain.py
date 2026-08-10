@@ -1,11 +1,12 @@
-!pip install langchain
-!pip install langchain-community
-!pip install langchain-huggingface
-!pip install chromadb
-!pip install sentence-transformers
-!pip install -U langchain-huggingface huggingface_hub
-!pip install -q youtube-transcript-api langchain-community langchain-openai \
-               faiss-cpu tiktoken python-dotenv
+#Developer : Tauheed Ahmad (tauheed.spark@gmail.com)
+#version : 1.0
+#!pip install langchain
+#!pip install langchain-community
+#!pip install langchain-huggingface
+#!pip install chromadb
+#!pip install sentence-transformers
+#!pip install -U langchain-huggingface huggingface_hub
+#!pip install -q youtube-transcript-api langchain-community langchain-openai faiss-cpu tiktoken python-dotenv
 
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api._errors import TranscriptsDisabled
